@@ -16,8 +16,15 @@
 # along with GNU Typist.  If not, see <http://www.gnu.org/licenses/>.
 
 #---------------------------------------------------------------------
+# Japanese Lesson
+#---------------------------------------------------------------------
+
+G:_JA_HIRAGANA_MENU
+
+#---------------------------------------------------------------------
 # Hiragana
 #---------------------------------------------------------------------
+
 *:_JA_HIRAGANA01
 B:		Lesson 1: あ、い、う、え、お
 D:あ　い　う　え　お
@@ -67,3 +74,20 @@ D:ら　り　る　れ　ろ
 B:		Lesson 10: わ、を、ん
 D:わ　を　ん
  :ん　を　わ
+
+#---------------------------------------------------------------------
+# Japanese Hiragana Menu
+#---------------------------------------------------------------------
+*:_JA_HIRAGANA_MENU
+B:
+M: "The Hiragana typing lessons are as follow"
+ :_JA_HIRAGANA01 "Lesson 1: あ、い、う、え、お"
+ :_JA_HIRAGANA02 "Lesson 2: か、き、く、け、こ"
+ :_JA_HIRAGANA03 "Lesson 3: さ、し、す、せ、そ"
+ :_JA_HIRAGANA04 "Lesson 4: た、ち、つ、て、と"
+ :_JA_HIRAGANA05 "Lesson 5: な、に、ぬ、ね、の"
+ :_JA_HIRAGANA06 "Lesson 6: は、ひ、ふ、へ、ほ"
+ :_JA_HIRAGANA07 "Lesson 7: ま、み、む、め、も"
+ :_JA_HIRAGANA08 "Lesson 8: や、ゆ、よ"
+ :_JA_HIRAGANA09 "Lesson 9: ら、り、る、れ、ろ"
+ :_JA_HIRAGANA10 "Lesson 10: わ、を、ん"
