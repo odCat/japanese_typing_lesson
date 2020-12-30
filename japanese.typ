@@ -19,11 +19,13 @@
 # Japanese Lesson
 #---------------------------------------------------------------------
 
-G:_JA_HIRAGANA_MENU
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Hiragana
 #---------------------------------------------------------------------
+
+G:_JA_HIRAGANA_MENU
 
 *:_JA_HIRAGANA01
 B:		Lesson 1: あ、い、う、え、お
@@ -76,6 +78,71 @@ D:わ　を　ん
  :ん　を　わ
 
 #---------------------------------------------------------------------
+# Katakana
+#---------------------------------------------------------------------
+
+G:_JA_KATAKANA_MENU
+
+*:_JA_KATAKANA01
+B:		Lesson 1: ア、イ、ウ、エ、オ
+D:ア　イ　ウ　エ　オ
+ :オ　エ　ウ　イ　ア
+
+*:_JA_KATAKANA02
+B:		Lesson 2: カ、キ、ク、ケ、コ
+D:カ　キ　ク　ケ　コ
+ :コ　ケ　ク　キ　カ
+
+*:_JA_KATAKANA03
+B:		Lesson 3: サ、シ、ス、セ、ソ
+D:サ　シ　ス　セ　ソ
+ :ソ　セ　ス　シ　サ
+
+*:_JA_KATAKANA04
+B:		Lesson 4: タ、チ、ツ、テ、ト
+D:タ　チ　ツ　テ　ト
+ :ト　テ　ツ　チ　タ
+
+*:_JA_KATAKANA05
+B:		Lesson 5: ナ、ニ、ヌ、ネ、ノ
+D:ナ　ニ　ヌ　ネ　ノ
+ :ノ　ネ　ヌ　ニ　ナ
+
+*:_JA_KATAKANA06
+B:		Lesson 6: ハ、ヒ、フ、ヘ、ホ
+D:ハ　ヒ　フ　ヘ　ホ
+ :ホ　ヘ　フ　ヒ　ハ
+
+*:_JA_KATAKANA07
+B:		Lesson 7: マ、ミ、ム、メ、モ
+D:マ　ミ　ム　メ　モ
+ :モ　メ　ム　ミ　マ
+
+*:_JA_KATAKANA08
+B:		Lesson 8: ヤ、ユ、ヨ
+D:ヤ　ユ　ヨ
+ :ヨ　ユ　ヤ
+
+*:_JA_KATAKANA09
+B:		Lesson 9: ラ、リ、ル、レ、ロ
+D:ラ　リ　ル　レ　ロ
+ :ロ　レ　ル　リ　ラ
+
+*:_JA_KATAKANA10
+B:		Lesson 10: ワ、ヲ、ン
+D:ワ　ヲ　ン
+ :ン　ヲ　ワ
+
+#---------------------------------------------------------------------
+# Japanese  Menu
+#---------------------------------------------------------------------
+*:_JA_MENU
+B:
+M: "The Japanese typing lessons are as follow"
+ :_JA_HIRAGANA_MENU "Hiragana"
+ :_JA_KATAKANA_MENU "Katakana"
+
+#---------------------------------------------------------------------
 # Japanese Hiragana Menu
 #---------------------------------------------------------------------
 *:_JA_HIRAGANA_MENU
@@ -91,3 +158,20 @@ M: "The Hiragana typing lessons are as follow"
  :_JA_HIRAGANA08 "Lesson 8: や、ゆ、よ"
  :_JA_HIRAGANA09 "Lesson 9: ら、り、る、れ、ろ"
  :_JA_HIRAGANA10 "Lesson 10: わ、を、ん"
+
+#---------------------------------------------------------------------
+# Japanese Katakana Menu
+#---------------------------------------------------------------------
+*:_JA_KATAKANA_MENU
+B:
+M: "The Katakana typing lessons are as follow"
+ :_JA_KATAKANA01 "Lesson 1: ア、イ、ウ、エ、オ"
+ :_JA_KATAKANA02 "Lesson 2: カ、キ、ク、ケ、コ"
+ :_JA_KATAKANA03 "Lesson 3: サ、シ、ス、セ、ソ"
+ :_JA_KATAKANA04 "Lesson 4: タ、チ、ツ、テ、ト"
+ :_JA_KATAKANA05 "Lesson 5: ナ、ニ、ヌ、ネ、ノ"
+ :_JA_KATAKANA06 "Lesson 6: ハ、ヒ、フ、ヘ、ホ"
+ :_JA_KATAKANA07 "Lesson 7: マ、ミ、ム、メ、モ"
+ :_JA_KATAKANA08 "Lesson 8: ヤ、ユ、ヨ"
+ :_JA_KATAKANA09 "Lesson 9: ラ、リ、ル、レ、ロ"
+ :_JA_KATAKANA10 "Lesson 10: ワ、ヲ、ン"
