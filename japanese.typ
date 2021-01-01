@@ -140,7 +140,11 @@ D:ワ　ヲ　ン
 B:
 M: "The Japanese typing lessons are as follow"
  :_JA_HIRAGANA_MENU "Hiragana"
+ :_JA_COMBO_HIRAGANA_MENU "Combo Hiragana"
+ :_JA_DAKUTEN_HIRAGANA_MENU "Dakuten Hiragana"
  :_JA_KATAKANA_MENU "Katakana"
+ :_JA_COMBO_KATAKANA_MENU "Combo Katakana"
+ :_JA_DAKUTEN_KATAKANA_MENU "Dakuten Katakana"
 
 #---------------------------------------------------------------------
 # Japanese Hiragana Menu
@@ -160,6 +164,16 @@ M: "The Hiragana typing lessons are as follow"
  :_JA_HIRAGANA10 "Lesson 10: わ、を、ん"
 
 #---------------------------------------------------------------------
+# Japanese Combo Hiragana Menu
+#---------------------------------------------------------------------
+*:_JA_COMBO_HIRAGANA_MENU
+
+#---------------------------------------------------------------------
+# Japanese Dakuten Hiragana Menu
+#---------------------------------------------------------------------
+*:_JA_DAKUTEN_HIRAGANA_MENU
+
+#---------------------------------------------------------------------
 # Japanese Katakana Menu
 #---------------------------------------------------------------------
 *:_JA_KATAKANA_MENU
@@ -175,3 +189,14 @@ M: "The Katakana typing lessons are as follow"
  :_JA_KATAKANA08 "Lesson 8: ヤ、ユ、ヨ"
  :_JA_KATAKANA09 "Lesson 9: ラ、リ、ル、レ、ロ"
  :_JA_KATAKANA10 "Lesson 10: ワ、ヲ、ン"
+
+#---------------------------------------------------------------------
+# Japanese Combo Katakana Menu
+#---------------------------------------------------------------------
+*:_JA_COMBO_KATAKANA_MENU
+
+#---------------------------------------------------------------------
+# Japanese Dakuten Katakana Menu
+#---------------------------------------------------------------------
+*:_JA_DAKUTEN_KATAKANA_MENU
+
