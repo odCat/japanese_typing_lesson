@@ -78,62 +78,87 @@ D:わ　を　ん
  :ん　を　わ
 
 *:_JA_HIRAGANA11
-B:		Lesson 11: きゃ、きゅ、きょ
+B:		Lesson 11: が、ぎ、ぐ、げ、ご
+D:が　ぎ　ぐ　げ　ご
+ :ご　げ　ぐ　ぎ　が
+
+*:_JA_HIRAGANA12
+B:		Lesson 12: ざ、じ、ず、ぜ、ぞ
+D:ざ　じ　ず　ぜ　ぞ
+ :ぞ　ぜ　ず　じ　ざ
+
+*:_JA_HIRAGANA13
+B:		Lesson 13: だ、ぢ、づ、で、ど
+D:だ　ぢ　づ　で　ど
+ :ど　で　づ　ぢ　だ
+
+*:_JA_HIRAGANA14
+B:		Lesson 14: ば、び、ぶ、べ、ぼ
+D:ば　び　ぶ　べ　ぼ
+ :ぼ　べ　ぶ　び　ば
+
+*:_JA_HIRAGANA15
+B:		Lesson 15: ぱ、ぴ、ぷ、ぺ、ぽ
+D:ぱ　ぴ　ぷ　ぺ　ぽ
+ :ぽ　ぺ　ぷ　ぴ　ぱ
+
+*:_JA_HIRAGANA16
+B:		Lesson 16: きゃ、きゅ、きょ
 D:きゃ　きゅ　きょ
  :きょ　きゅ　きゃ
 
-*:_JA_HIRAGANA12
-B:		Lesson 12: しゃ、しゅ、しょ
+*:_JA_HIRAGANA17
+B:		Lesson 17: しゃ、しゅ、しょ
 D:しゃ　しゅ　しょ
  :しょ　しゅ　しゃ
 
-*:_JA_HIRAGANA13
-B:		Lesson 13: ちゃ、ちゅ、ちょ
+*:_JA_HIRAGANA18
+B:		Lesson 18: ちゃ、ちゅ、ちょ
 D:ちゃ　ちゅ　ちょ
  :ちょ　ちゅ　ちゃ
 
-*:_JA_HIRAGANA14
-B:		Lesson 14: にゃ、にゅ、にょ
+*:_JA_HIRAGANA19
+B:		Lesson 19: にゃ、にゅ、にょ
 D:にゃ　にゅ　にょ
  :にょ　にゅ　にゃ
 
-*:_JA_HIRAGANA15
-B:		Lesson 15: ひゃ、ひゅ、ひょ
+*:_JA_HIRAGANA20
+B:		Lesson 20: ひゃ、ひゅ、ひょ
 D:ひゃ　ひゅ　ひょ
  :ひょ　ひゅ　ひゃ
 
-*:_JA_HIRAGANA16
-B:		Lesson 16: みゃ、みゅ、みょ
+*:_JA_HIRAGANA21
+B:		Lesson 21: みゃ、みゅ、みょ
 D:みゃ　みゅ　みょ
  :みょ　みゅ　みゃ
 
-*:_JA_HIRAGANA17
-B:		Lesson 17: りゃ、りゅ、りょ
+*:_JA_HIRAGANA22
+B:		Lesson 22: りゃ、りゅ、りょ
 D:りゃ　りゅ　りょ
  :りょ　りゅ　りょ
 
-*:_JA_HIRAGANA18
-B:		Lesson 18: ぎゃ、ぎゅ、ぎょ
+*:_JA_HIRAGANA23
+B:		Lesson 23: ぎゃ、ぎゅ、ぎょ
 D:ぎゃ　ぎゅ　ぎょ
  :ぎょ　ぎゅ　ぎゃ
 
-*:_JA_HIRAGANA19
-B:		Lesson 19: じゃ、じゅ、じょ
+*:_JA_HIRAGANA24
+B:		Lesson 24: じゃ、じゅ、じょ
 D:じゃ　じゅ　じょ
  :じょ　じゅ　じゃ
 
-*:_JA_HIRAGANA20
-B:		Lesson 20: ぢゃ、ぢゅ、ぢょ
+*:_JA_HIRAGANA25
+B:		Lesson 25: ぢゃ、ぢゅ、ぢょ
 D:ぢゃ　ぢゅ　ぢょ
  :ぢょ　ぢゅ　ぢゃ
 
-*:_JA_HIRAGANA21
-B:		Lesson 21: びゃ、びゅ、びょ
+*:_JA_HIRAGANA26
+B:		Lesson 26: びゃ、びゅ、びょ
 D:びゃ　びゅ　びょ
  :びょ　びゅ　びゃ
 
-*:_JA_HIRAGANA22
-B:		Lesson 22: ぴゃ、ぴゅ、ぴょ
+*:_JA_HIRAGANA27
+B:		Lesson 27: ぴゃ、ぴゅ、ぴょ
 D:ぴゃ　ぴゅ　ぴょ
  :ぴょ　ぴゅ　ぴゃ
 
@@ -287,6 +312,13 @@ M: "The Hiragana typing lessons are as follow"
 # Japanese Dakuten Hiragana Menu
 #---------------------------------------------------------------------
 *:_JA_DAKUTEN_HIRAGANA_MENU
+B:
+M: "The Dakuten Hiragana lessons are as follow"
+ :_JA_HIRAGANA11 "Lesson 11: が、ぎ、ぐ、げ、ご"
+ :_JA_HIRAGANA12 "Lesson 12: ざ、じ、ず、ぜ、ぞ"
+ :_JA_HIRAGANA13 "Lesson 13: だ、ぢ、づ、で、ど"
+ :_JA_HIRAGANA14 "Lesson 14: ば、び、ぶ、べ、ぼ"
+ :_JA_HIRAGANA15 "Lesson 15: ぱ、ぴ、ぷ、ぺ、ぽ"
 
 #---------------------------------------------------------------------
 # Japanese Combo Hiragana Menu
@@ -294,18 +326,18 @@ M: "The Hiragana typing lessons are as follow"
 *:_JA_COMBO_HIRAGANA_MENU
 B:
 M: "The Combo Hiragana lessons are as follow"
- :_JA_HIRAGANA11 "Lesson 11: きゃ、きゅ、きょ"
- :_JA_HIRAGANA12 "Lesson 12: しゃ、しゅ、しょ"
- :_JA_HIRAGANA13 "Lesson 13: ちゃ、ちゅ、ちょ"
- :_JA_HIRAGANA14 "Lesson 14: にゃ、にゅ、にょ"
- :_JA_HIRAGANA15 "Lesson 15: ひゃ、ひゅ、ひょ"
- :_JA_HIRAGANA16 "Lesson 16: みゃ、みゅ、みょ"
- :_JA_HIRAGANA17 "Lesson 17: りゃ、りゅ、りょ"
- :_JA_HIRAGANA18 "Lesson 18: ぎゃ、ぎゅ、ぎょ"
- :_JA_HIRAGANA19 "Lesson 19: じゃ、じゅ、じょ"
- :_JA_HIRAGANA20 "Lesson 20: ぢゃ、ぢゅ、ぢょ"
- :_JA_HIRAGANA21 "Lesson 21: びゃ、びゅ、びょ"
- :_JA_HIRAGANA22 "Lesson 22: ぴゃ、ぴゅ、ぴょ"
+ :_JA_HIRAGANA16 "Lesson 16: きゃ、きゅ、きょ"
+ :_JA_HIRAGANA17 "Lesson 17: しゃ、しゅ、しょ"
+ :_JA_HIRAGANA18 "Lesson 18: ちゃ、ちゅ、ちょ"
+ :_JA_HIRAGANA19 "Lesson 19: にゃ、にゅ、にょ"
+ :_JA_HIRAGANA20 "Lesson 20: ひゃ、ひゅ、ひょ"
+ :_JA_HIRAGANA21 "Lesson 21: みゃ、みゅ、みょ"
+ :_JA_HIRAGANA22 "Lesson 22: りゃ、りゅ、りょ"
+ :_JA_HIRAGANA23 "Lesson 23: ぎゃ、ぎゅ、ぎょ"
+ :_JA_HIRAGANA24 "Lesson 24: じゃ、じゅ、じょ"
+ :_JA_HIRAGANA25 "Lesson 25: ぢゃ、ぢゅ、ぢょ"
+ :_JA_HIRAGANA26 "Lesson 26: びゃ、びゅ、びょ"
+ :_JA_HIRAGANA27 "Lesson 27: ぴゃ、ぴゅ、ぴょ"
 
 #---------------------------------------------------------------------
 # Japanese Katakana Menu
