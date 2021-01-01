@@ -77,6 +77,66 @@ B:		Lesson 10: わ、を、ん
 D:わ　を　ん
  :ん　を　わ
 
+*:_JA_HIRAGANA11
+B:		Lesson 11: きゃ、きゅ、きょ
+D:きゃ　きゅ　きょ
+ :きょ　きゅ　きゃ
+
+*:_JA_HIRAGANA12
+B:		Lesson 12: しゃ、しゅ、しょ
+D:しゃ　しゅ　しょ
+ :しょ　しゅ　しゃ
+
+*:_JA_HIRAGANA13
+B:		Lesson 13: ちゃ、ちゅ、ちょ
+D:ちゃ　ちゅ　ちょ
+ :ちょ　ちゅ　ちゃ
+
+*:_JA_HIRAGANA14
+B:		Lesson 14: にゃ、にゅ、にょ
+D:にゃ　にゅ　にょ
+ :にょ　にゅ　にゃ
+
+*:_JA_HIRAGANA15
+B:		Lesson 15: ひゃ、ひゅ、ひょ
+D:ひゃ　ひゅ　ひょ
+ :ひょ　ひゅ　ひゃ
+
+*:_JA_HIRAGANA16
+B:		Lesson 16: みゃ、みゅ、みょ
+D:みゃ　みゅ　みょ
+ :みょ　みゅ　みゃ
+
+*:_JA_HIRAGANA17
+B:		Lesson 17: りゃ、りゅ、りょ
+D:りゃ　りゅ　りょ
+ :りょ　りゅ　りょ
+
+*:_JA_HIRAGANA18
+B:		Lesson 18: ぎゃ、ぎゅ、ぎょ
+D:ぎゃ　ぎゅ　ぎょ
+ :ぎょ　ぎゅ　ぎゃ
+
+*:_JA_HIRAGANA19
+B:		Lesson 19: じゃ、じゅ、じょ
+D:じゃ　じゅ　じょ
+ :じょ　じゅ　じゃ
+
+*:_JA_HIRAGANA20
+B:		Lesson 20: ぢゃ、ぢゅ、ぢょ
+D:ぢゃ　ぢゅ　ぢょ
+ :ぢょ　ぢゅ　ぢゃ
+
+*:_JA_HIRAGANA21
+B:		Lesson 21: びゃ、びゅ、びょ
+D:びゃ　びゅ　びょ
+ :びょ　びゅ　びゃ
+
+*:_JA_HIRAGANA22
+B:		Lesson 22: ぴゃ、ぴゅ、ぴょ
+D:ぴゃ　ぴゅ　ぴょ
+ :ぴょ　ぴゅ　ぴゃ
+
 #---------------------------------------------------------------------
 # Katakana
 #---------------------------------------------------------------------
@@ -133,6 +193,66 @@ B:		Lesson 10: ワ、ヲ、ン
 D:ワ　ヲ　ン
  :ン　ヲ　ワ
 
+*:_JA_KATAKANA11
+B:		Lesson 11: 
+D:
+ :
+
+*:_JA_KATAKANA12
+B:		Lesson 12: 
+D:
+ :
+
+*:_JA_KATAKANA13
+B:		Lesson 13: 
+D:
+ :
+
+*:_JA_KATAKANA14
+B:		Lesson 14: 
+D:
+ :
+
+*:_JA_KATAKANA15
+B:		Lesson 15: 
+D:
+ :
+
+*:_JA_KATAKANA16
+B:		Lesson 16: 
+D:
+ :
+
+*:_JA_KATAKANA17
+B:		Lesson 17: 
+D:
+ :
+
+*:_JA_KATAKANA18
+B:		Lesson 18: 
+D:
+ :
+
+*:_JA_KATAKANA19
+B:		Lesson 19: 
+D:
+ :
+
+*:_JA_KATAKANA20
+B:		Lesson 20: 
+D:
+ :
+
+*:_JA_KATAKANA21
+B:		Lesson 21: 
+D:
+ :
+
+*:_JA_KATAKANA22
+B:		Lesson 22: 
+D:
+ :
+
 #---------------------------------------------------------------------
 # Japanese  Menu
 #---------------------------------------------------------------------
@@ -140,11 +260,11 @@ D:ワ　ヲ　ン
 B:
 M: "The Japanese typing lessons are as follow"
  :_JA_HIRAGANA_MENU "Hiragana"
- :_JA_COMBO_HIRAGANA_MENU "Combo Hiragana"
  :_JA_DAKUTEN_HIRAGANA_MENU "Dakuten Hiragana"
+ :_JA_COMBO_HIRAGANA_MENU "Combo Hiragana"
  :_JA_KATAKANA_MENU "Katakana"
- :_JA_COMBO_KATAKANA_MENU "Combo Katakana"
  :_JA_DAKUTEN_KATAKANA_MENU "Dakuten Katakana"
+ :_JA_COMBO_KATAKANA_MENU "Combo Katakana"
 
 #---------------------------------------------------------------------
 # Japanese Hiragana Menu
@@ -164,14 +284,28 @@ M: "The Hiragana typing lessons are as follow"
  :_JA_HIRAGANA10 "Lesson 10: わ、を、ん"
 
 #---------------------------------------------------------------------
-# Japanese Combo Hiragana Menu
-#---------------------------------------------------------------------
-*:_JA_COMBO_HIRAGANA_MENU
-
-#---------------------------------------------------------------------
 # Japanese Dakuten Hiragana Menu
 #---------------------------------------------------------------------
 *:_JA_DAKUTEN_HIRAGANA_MENU
+
+#---------------------------------------------------------------------
+# Japanese Combo Hiragana Menu
+#---------------------------------------------------------------------
+*:_JA_COMBO_HIRAGANA_MENU
+B:
+M: "The Combo Hiragana lessons are as follow"
+ :_JA_HIRAGANA11 "Lesson 11: きゃ、きゅ、きょ"
+ :_JA_HIRAGANA12 "Lesson 12: しゃ、しゅ、しょ"
+ :_JA_HIRAGANA13 "Lesson 13: ちゃ、ちゅ、ちょ"
+ :_JA_HIRAGANA14 "Lesson 14: にゃ、にゅ、にょ"
+ :_JA_HIRAGANA15 "Lesson 15: ひゃ、ひゅ、ひょ"
+ :_JA_HIRAGANA16 "Lesson 16: みゃ、みゅ、みょ"
+ :_JA_HIRAGANA17 "Lesson 17: りゃ、りゅ、りょ"
+ :_JA_HIRAGANA18 "Lesson 18: ぎゃ、ぎゅ、ぎょ"
+ :_JA_HIRAGANA19 "Lesson 19: じゃ、じゅ、じょ"
+ :_JA_HIRAGANA20 "Lesson 20: ぢゃ、ぢゅ、ぢょ"
+ :_JA_HIRAGANA21 "Lesson 21: びゃ、びゅ、びょ"
+ :_JA_HIRAGANA22 "Lesson 22: ぴゃ、ぴゅ、ぴょ"
 
 #---------------------------------------------------------------------
 # Japanese Katakana Menu
@@ -191,12 +325,12 @@ M: "The Katakana typing lessons are as follow"
  :_JA_KATAKANA10 "Lesson 10: ワ、ヲ、ン"
 
 #---------------------------------------------------------------------
-# Japanese Combo Katakana Menu
-#---------------------------------------------------------------------
-*:_JA_COMBO_KATAKANA_MENU
-
-#---------------------------------------------------------------------
 # Japanese Dakuten Katakana Menu
 #---------------------------------------------------------------------
 *:_JA_DAKUTEN_KATAKANA_MENU
+
+#---------------------------------------------------------------------
+# Japanese Combo Katakana Menu
+#---------------------------------------------------------------------
+*:_JA_COMBO_KATAKANA_MENU
 
