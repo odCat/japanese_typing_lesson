@@ -243,35 +243,65 @@ B:		Lesson 15: パ、ピ、プ、ペ、ポ
 D:パ　ピ　プ　ペ　ポ
  :ポ　ペ　プ　ピ　パ
 
+*:_JA_KATAKANA16
+B:		Lesson 16: キャ、キュ、キョ
+D:キャ　キュ　キョ
+ :キョ　キュ　キャ
+
 *:_JA_KATAKANA17
-B:		Lesson 17: 
-D:
- :
+B:		Lesson 17: シャ、シュ、ショ
+D:シャ　シュ　ショ
+ :ショ　シュ　シャ
 
 *:_JA_KATAKANA18
-B:		Lesson 18: 
-D:
- :
+B:		Lesson 18: チャ、チュ、チョ
+D:チャ　チュ　チョ
+ :チョ　チュ　チャ
 
 *:_JA_KATAKANA19
-B:		Lesson 19: 
-D:
- :
+B:		Lesson 19: ニャ、ニュ、ニョ
+D:ニャ　ニュ　ニョ
+ :ニョ　ニュ　ニャ
 
 *:_JA_KATAKANA20
-B:		Lesson 20: 
-D:
- :
+B:		Lesson 20: ヒャ、ヒュ、ヒョ
+D:ヒャ　ヒュ　ヒョ
+ :ヒョ　ヒュ　ヒャ
 
 *:_JA_KATAKANA21
-B:		Lesson 21: 
-D:
- :
+B:		Lesson 21: ミャ、ミュ、ミョ
+D:ミャ　ミュ　ミョ
+ :ミョ　ミュ　ミャ
 
 *:_JA_KATAKANA22
-B:		Lesson 22: 
-D:
- :
+B:		Lesson 22: リャ、リュ、リョ
+D:リャ　リュ　リョ
+ :リョ　リュ　リャ
+
+*:_JA_KATAKANA23
+B:		Lesson 23: ギャ、ギュ、ギョ
+D:ギャ　ギュ　ギョ
+ :ギョ　ギュ　ギャ
+
+*:_JA_KATAKANA24
+B:		Lesson 24: ジャ、ジュ、ジョ
+D:ジャ　ジュ　ジョ
+ :ジョ　ジュ　ジャ
+
+*:_JA_KATAKANA25
+B:		Lesson 25: ヂャ、ヂュ、ヂョ
+D:ヂャ　ヂュ　ヂョ
+ :ヂョ　ヂュ　ヂャ
+
+*:_JA_KATAKANA26
+B:		Lesson 26: ビャ、ビュ、ビョ
+D:ビャ　ビュ　ビョ
+ :ビョ　ビュ　ビャ
+
+*:_JA_KATAKANA27
+B:		Lesson 27: ピャ、ピュ、ピョ
+D:ピャ　ピュ　ピョ
+ :ピョ　ピュ　ピャ
 
 #---------------------------------------------------------------------
 # Japanese  Menu
@@ -302,6 +332,7 @@ M: "The Hiragana typing lessons are as follow"
  :_JA_HIRAGANA08 "Lesson 8:  や、ゆ、よ"
  :_JA_HIRAGANA09 "Lesson 9:  ら、り、る、れ、ろ"
  :_JA_HIRAGANA10 "Lesson 10: わ、を、ん"
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Japanese Dakuten Hiragana Menu
@@ -314,6 +345,7 @@ M: "The Dakuten Hiragana lessons are as follow"
  :_JA_HIRAGANA13 "Lesson 13: だ、ぢ、づ、で、ど"
  :_JA_HIRAGANA14 "Lesson 14: ば、び、ぶ、べ、ぼ"
  :_JA_HIRAGANA15 "Lesson 15: ぱ、ぴ、ぷ、ぺ、ぽ"
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Japanese Combo Hiragana Menu
@@ -333,6 +365,7 @@ M: "The Combo Hiragana lessons are as follow"
  :_JA_HIRAGANA25 "Lesson 25: ぢゃ、ぢゅ、ぢょ"
  :_JA_HIRAGANA26 "Lesson 26: びゃ、びゅ、びょ"
  :_JA_HIRAGANA27 "Lesson 27: ぴゃ、ぴゅ、ぴょ"
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Japanese Katakana Menu
@@ -350,6 +383,7 @@ M: "The Katakana typing lessons are as follow"
  :_JA_KATAKANA08 "Lesson 8:  ヤ、ユ、ヨ"
  :_JA_KATAKANA09 "Lesson 9:  ラ、リ、ル、レ、ロ"
  :_JA_KATAKANA10 "Lesson 10: ワ、ヲ、ン"
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Japanese Dakuten Katakana Menu
@@ -362,9 +396,24 @@ M: "The Dakuten Katakana lessons are as follow"
  :_JA_KATAKANA13 "Lessons 13: ダ、ヂ、ヅ、デ、ド"
  :_JA_KATAKANA14 "Lessons 14: バ、ビ、ブ、ベ、ボ"
  :_JA_KATAKANA15 "Lessons 15: パ、ピ、プ、ペ、ポ"
+G:_JA_MENU
 
 #---------------------------------------------------------------------
 # Japanese Combo Katakana Menu
 #---------------------------------------------------------------------
 *:_JA_COMBO_KATAKANA_MENU
-
+B:
+M: "The Combo Katakana lessons are as follow"
+ :_JA_KATAKANA16 "Lesson 16: キャ、キュ、キョ"
+ :_JA_KATAKANA17 "Lesson 17: シャ、シュ、ショ"
+ :_JA_KATAKANA18 "Lesson 18: チャ、チュ、チョ"
+ :_JA_KATAKANA19 "Lesson 19: ニャ、ニュ、ニョ"
+ :_JA_KATAKANA20 "Lesson 20: ヒャ、ヒュ、ヒョ"
+ :_JA_KATAKANA21 "Lesson 21: ミャ、ミュ、ミョ"
+ :_JA_KATAKANA22 "Lesson 22: リャ、リュ、リョ"
+ :_JA_KATAKANA23 "Lesson 23: ギャ、ギュ、ギョ"
+ :_JA_KATAKANA24 "Lesson 24: ジャ、ジュ、ジョ"
+ :_JA_KATAKANA25 "Lesson 25: ヂャ、ヂュ、ヂョ"
+ :_JA_KATAKANA26 "Lesson 26: ビャ、ビュ、ビョ"
+ :_JA_KATAKANA27 "Lesson 27: ピャ、ピュ、ピョ"
+G:_JA_MENU
